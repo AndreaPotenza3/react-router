@@ -46,3 +46,11 @@ a {
   gap: 1rem;
 
 }
+
+.tail {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin-top: 100px;
+}
