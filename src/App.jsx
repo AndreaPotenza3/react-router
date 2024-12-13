@@ -4,14 +4,16 @@ import Home from './Pages/Home'
 import About from './Pages/AboutUs'
 import List from './Pages/List'
 import Navbar from './Components/Navbar/Navbar'
+import DefaultLayout from './Components/DefaultLayout'
 
 function App() {
 
   return (
     <BrowserRouter>
-      <h1>Arcane</h1>
+      <h1 className='title'>Arcane</h1>
       <Navbar />
       <Routes>
+        <Route element={<DefaultLayout />}></Route>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/list' element={<List />} />
