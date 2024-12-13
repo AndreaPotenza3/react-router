@@ -27,9 +27,15 @@ a {
   margin-top: 1rem;
 }
 
-.list-title {
+.sub-title {
   text-align: center;
   margin-top: 2rem;
+}
+
+.about-description {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0 10rem;
 }
 
 .char-list {
