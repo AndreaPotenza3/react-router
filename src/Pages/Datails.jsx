@@ -30,10 +30,12 @@ export default function Details() {
             </div >
             {post && < div >
                 <h1>{post.title}</h1>
-                <p>{post.content}</p>
-                <figure>
-                    <img src={post.image} alt="" />
-                </figure>
+                <div className="det-card">
+                    <figure>
+                        <img src={`${base_api}/imgs/posts/${post.image}`} alt="" />
+                    </figure>
+                    <p>{post.content}</p>
+                </div>
             </div >
             }
         </>

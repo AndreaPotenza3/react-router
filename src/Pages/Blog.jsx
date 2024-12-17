@@ -28,7 +28,7 @@ export default function Blog() {
                 {newPosts.map(post => (
                     <li key={post.id}>
                         <h3>{post.title}</h3>
-                        <img src={`${base_api}posts${post.image}`} alt="" />
+                        <img src={`${base_api}/imgs/posts/${post.image}`} alt="" />
                         <Link to={`/${post.id}`}>Dettagli</Link>
                     </li>
                 ))}
