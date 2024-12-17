@@ -29,7 +29,6 @@ export default function Blog() {
                     <li key={post.id}>
                         <h3>{post.title}</h3>
                         <img src={`${base_api}posts${post.image}`} alt="" />
-                        <p>{post.content}</p>
                         <Link to={`/${post.id}`}>Dettagli</Link>
                     </li>
                 ))}
